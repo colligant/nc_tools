@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "nc_tools"
+authors = [{ name = "Thomas Colligan", email = "colligan@umd.edu" }]
+readme = "README.md"
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/colligant/nc_tools"
+
+[dependencies]
+dependencies = ["numpy", "xarray"]
+
+[tool.isort]
+profile = "black"
+
+[tool.pycln]
+all = true
