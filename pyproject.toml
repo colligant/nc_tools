@@ -15,6 +15,7 @@ Home = "https://github.com/colligant/nc_tools"
 dependencies = ["numpy", "xarray"]
 
 [tool.isort]
+
 profile = "black"
 
 [tool.pycln]
